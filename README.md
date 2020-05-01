@@ -1,2 +1,18 @@
-# Santigrat-cinsinden-girilmis-sicakligi-Fahrenhayta-ceviren-bir-C-programi
-Programlamayı C ile Öğreniyorum 6.14
+    #include <stdio.h>
+    #include <stdlib.h>
+
+    int main() {
+    
+    int sicaklik;
+    float ikincisicaklik;
+
+    printf("Sicakligi giriniz (oC): ");
+    scanf("%d", &sicaklik);
+
+    printf("-----------------------------\n");
+
+    ikincisicaklik= ((sicaklik/100)*180)+32;
+
+    printf("Girilen %d oC, %f Fahrenhayt", sicaklik, ikincisicaklik);
+
+    return 0; }
